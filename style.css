@@ -12,12 +12,23 @@ h2 {
     margin-top: 3rem !important;
 }
 
+li {
+    list-style-type: none;
+}
+
+td {
+    min-width: 200px !important;
+}
+
 #config {
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 #app-div {
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
 }
