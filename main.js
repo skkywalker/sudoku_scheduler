@@ -2,6 +2,16 @@ var nomes;
 var tabela = [];
 var ROWS = 10;
 
+function howManyInLine(nome, linha) {
+    var resultado = [];
+    for(var coluna = 0; coluna < tabela[linha].length; coluna++) {
+        if(nome == tabela[linha][coluna]) {
+            resultado.push(linha.toString() + "-" + coluna.toString());
+        }
+    }
+    return resultado;
+}
+
 function howManyInColumn(nome, column) {
     var resultado = [];
     for(var linha = 0; linha < tabela.length; linha++) {
