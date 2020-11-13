@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sudoku do Bacy</title>
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h2>Sudoku do Bacy</h2>
+    <div id="config">
+        <form id="configForm">
+            <fieldset>
+                <legend>Configurações</legend>
+                <textarea id="form-nomes" rows="15" cols="50" placeholder="Um nome por linha, com a quantia de vezes que deve aparecer em cada coluna. Exemplo:
+Alberto-3,3,2,1
+Beto-2,2,1,1
+Carlos-1,1,3,3"></textarea>
+                <input type="submit" value="Configura!">
+            </fieldset>
+        </form>
+    </div>
+    <div id="app-div">
+        <table>
+            <tbody id="app">
+            </tbody>
+        </table>
+    </div>
+    <div id="editor">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

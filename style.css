@@ -1,0 +1,23 @@
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    margin-top: 3rem;
+}
+
+h2 {
+    margin-top: 3rem !important;
+}
+
+#config {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#app-div {
+    max-width: 80%;
+    margin: 0 auto;
+}
